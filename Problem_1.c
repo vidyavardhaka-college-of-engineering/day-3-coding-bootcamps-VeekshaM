@@ -9,12 +9,15 @@
 
 int main()
 {
-    int N;
+    int N,i,sum=0;
     printf("Enter the value for N\n");
     scanf("%d", &N);
-
+for(i=1; i<=10;i++)
+{
+  sum=sum+i;
+}
     //Write your code here
-       
+printf("sum is:%d",sum);
        
        
        
